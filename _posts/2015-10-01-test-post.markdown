@@ -4,10 +4,29 @@ title:  "Creating an API using Rails"
 date:   2015-10-01
 ---
 
-<p class="intro"><span class="dropcap">H</span>ey there! In this post I will explain to you how you can create a simple ruby on rails api without the use of rails api gem. This blog uses references from the railscast tutorial of API Versioning. You can refer a simple user api created using rails at my guthub respository.</p>
+<p class="intro"><span class="dropcap">H</span>ey there! In this post I will explain to you how you can create a simple ruby on rails api without the use of rails api gem. This blog uses references from the railscast tutorial of API Versioning. You can refer a simple user api created using rails at my github <a href="https://github.com/kspmayank/bookit">respository</a>.</p>
 
 <p>This Blog assumes that the user has already installed ruby, rails and postgresql server in his system. For installation of the same, refer here : <a href="https://gorails.com/setup/ubuntu/14.10">Installing Ruby On Rails Environment in Ubuntu</a>.<br>This blog also assumes that the user has prior knowledge about the relational databases.</p>
 
 <h3>Getting Started</h3>
-<p>Once you have installed Ruby On Rails Environment, you can create a new rails app by typing in the following command: ```$ rails new app_name```</p>
+<p>Once you have installed Ruby On Rails Environment, you can create a new rails app by typing in the following command:</p>
+<p style="background: #7B0B59; padding:1em; color: #fff;"> $ rails new name_of_app<br>$ cd name_of_app</p>
+<p>This will create a new rails app in the current directory with the current database configured as sqlite3.<br>You can change the settings from the cofig file found in config/database.yml. Also you need to change the gem for your database configuration in the Gemfile:</p>
+
+<p style="background: #7B0B59; padding:1em; color: #fff;">
+#for using sqlite3 as database use :
+gem 'sqlite3'
+
+#for using postgresql as database use :
+gem 'pg'
+
+</p>
+
+<p>After this you can create the desired model/table that you want in your database, using the folloeing command: </p>
+<p style="background: #7B0B59; padding:1em; color: #fff;"> 
+	#for creating a User model with attributes name of type string and mobileno of type integer
+	$ bin/rails generate model User name:string mobileno:integer
+</p>
+<p>This will create a model named User with the above mentioned attributes.</p>
+
 
