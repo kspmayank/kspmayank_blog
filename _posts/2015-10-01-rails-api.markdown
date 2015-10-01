@@ -37,7 +37,7 @@ gem 'pg'<br>
 
 <h3>Creating and Migrating Database</h3>
 
-<p>After this you can create the desired model/table that you want in your database, using the folloeing command: </p>
+<p>After this you can create the desired model/table that you want in your database, using the following command: </p>
 <pre style="background: #7B0B59; padding:1em; color: #fff;"> 
 	#for creating a User model with attributes name of type string and mobileno of type integer<br>
 	$ bin/rails generate model User name:string mobileno:integer
@@ -55,12 +55,14 @@ $ bin/rake db:migrate
 <p>Now create another folder inside the 'api' folder named 'v1'. This denotes that the api is using version 1 of the api. To create another versions create different folders inside the 'api' folder.</p>
 <p>Now to create CRUD(Create Read Update Delete) operations for the User model, go to the 'routes.rb' file in the 'config' folder and add this code after the first line:</p>
 
-<pre>
-	namespace :api do
+<pre style="background: #000; padding:1em; color: #fff;">
+	namespace :api , defaults: {format: 'json'} do
     	namespace :v1 do
-    	  	resources :products
+    	  	resources :users
     	end
   	end
+
+  	resources :users
 </pre>
 
 <p>Now create a file named 'users_controller.rb' inside the 'v1' folder. And write the following code inside it: </p>
@@ -69,6 +71,7 @@ $ bin/rake db:migrate
 module Api
   module V1
     class UsersController < ApplicationController
+      skip_before_filter  :verify_authenticity_token
       respond_to :json
       
       def index
@@ -80,11 +83,11 @@ module Api
       end
       
       def create
-        respond_with User.create(params[:product])
+        respond_with User.create(name: params[:name], mobileno: params[:mobileno])
       end
       
       def update
-        respond_with User.update(params[:id], params[:products])
+        respond_with User.update(params[:id], name: params[:name], mobileno: params[:mobileno])
       end
       
       def destroy
@@ -95,13 +98,32 @@ module Api
 end
 </pre>
 
+
+<p>Also add the following gem to the Gemfile:</p>
+
+<pre style="color:#fff; background: #000; padding:1em;">
+	gem 'responders', '~> 2.0'
+</pre>
+
+<p>Run the following code in terminal:</p>
+
+<pre style="color:#fff; background: #7B0B59; padding:1em;">
+	$ bundle install
+</pre>
+
+<h3>Hosting api on localhost and accessing it using Postman Plugin</h3>
+
 <p>Now to host the api on localhost, go to terminal and type the following code:</p>
 
 <pre style="color:#fff; background: #7B0B59; padding:1em;">
 	$ rails s
 </pre>
 
-<p>This will host the api on the localhost and you can visit localhost:3000 on you browser and you will see a getting started page. Now if you will visit the localhost:3000/api/v1/users</p>
+<p>This will host the api on the localhost and you can visit localhost:3000 on you browser and you will see a getting started page. <br>Now if you will visit the localhost:3000/api/v1/users  you will see an empty array. This is because your database is empty. Now to access all requests to the api, I recommend using Postman Plugin for chrome. Install it and send post request to the following url 'http://localhost:3000/api/v1/users' with params 'name' and 'mobileno' and fill the database with some records and then you can call get request on the same url for getting the records in json format.</p>
+
+<p>Now to send put request, you need to send the put reuest at http://localhost:3000/api/v1/users/:id_of_user along with the updated params.</p>
+
+<p>To send DELETE request just send the delete request to the same url as put and the user will be deleted.</p>
 
 <p>Further content coming soon...</p>
 
