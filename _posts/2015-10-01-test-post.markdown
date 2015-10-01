@@ -14,19 +14,19 @@ date:   2015-10-01
 <p>This will create a new rails app in the current directory with the current database configured as sqlite3.<br>You can change the settings from the cofig file found in config/database.yml. Also you need to change the gem for your database configuration in the Gemfile:</p>
 
 <p style="background: #7B0B59; padding:1em; color: #fff;">
-#for using sqlite3 as database use :
-gem 'sqlite3'
+#for using sqlite3 as database use :<br>
+gem 'sqlite3'<br>
 
-#for using postgresql as database use :
-gem 'pg'
+#for using postgresql as database use :<br>
+gem 'pg'<br>
 
 </p>
 
 <p>After this you can create the desired model/table that you want in your database, using the folloeing command: </p>
 <p style="background: #7B0B59; padding:1em; color: #fff;"> 
-	#for creating a User model with attributes name of type string and mobileno of type integer
+	#for creating a User model with attributes name of type string and mobileno of type integer<br>
 	$ bin/rails generate model User name:string mobileno:integer
 </p>
 <p>This will create a model named User with the above mentioned attributes.</p>
-
+<p>Further content coming soon...</p>
 
