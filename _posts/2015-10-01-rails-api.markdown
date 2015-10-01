@@ -5,45 +5,67 @@ date:   2015-10-01
 ---
 
 
-<p class="intro"><span class="dropcap">H</span>ey there! In this post I will explain to you how you can create a simple ruby on rails api without the use of rails api gem. This blog uses references from the railscast tutorial of API Versioning. You can refer a simple user api created using rails at my github <a href="https://github.com/kspmayank/bookit">respository</a>.</p>
+<p class="intro"><span class="dropcap">H</span>ey there! In this post I will explain to you how you can create a simple ruby on rails api without the use of rails api gem. This blog uses references from the railscast tutorial of API Versioning. You can refer a simple user api created using rails at my github <a href="https://github.com/kspmayank/Blog-Api">respository</a>.</p>
 
 <p>This Blog assumes that the user has already installed ruby, rails and postgresql server in his system. For installation of the same, refer here : <a href="https://gorails.com/setup/ubuntu/14.10">Installing Ruby On Rails Environment in Ubuntu</a>.<br>This blog also assumes that the user has prior knowledge about the relational databases.</p>
 
 <h3>Getting Started</h3>
 <p>Once you have installed Ruby On Rails Environment, you can create a new rails app by typing in the following command:</p>
-<p style="background: #7B0B59; padding:1em; color: #fff;"> $ rails new name_of_app<br>$ cd name_of_app</p>
-<p>This will create a new rails app in the current directory with the current database configured as sqlite3.<br>You can change the settings from the cofig file found in config/database.yml. Also you need to change the gem for your database configuration in the Gemfile:</p>
+<pre><p style="background: #7B0B59; padding:1em; color: #fff;"> $ rails new name_of_app<br>$ cd name_of_app</p></pre>
+<p>This will create a new rails app in the current directory with the current database configured as sqlite3.<br>You can change the settings from the cofig file found in config/database.yml. </p>
 
-<pre style="background: #000; padding:1em; color: #fff;">
+<pre><p style="background: #000; padding:1em; color: #fff;">
+	default: &default
+  	adapter: postgresql #change adapter name according to database
+  	pool: 5
+  	timeout: 5000
+
+  	# and change the database: name to the name you want for your database in all the 3 environments i.e. development, test and production.
+  	# note: name should be different for all the 3 environments.
+</p></pre>
+
+<p>Also you need to change the gem for your database configuration in the Gemfile:</p>
+
+<pre><p style="background: #000; padding:1em; color: #fff;">
 #for using sqlite3 as database use :<br>
 gem 'sqlite3'<br>
 
 #for using postgresql as database use :<br>
 gem 'pg'<br>
 
-</pre>
+</p></pre>
 
 <h3>Creating and Migrating Database</h3>
 
 <p>After this you can create the desired model/table that you want in your database, using the folloeing command: </p>
-<pre style="background: #7B0B59; padding:1em; color: #fff;"> 
+<pre><p style="background: #7B0B59; padding:1em; color: #fff;"> 
 	#for creating a User model with attributes name of type string and mobileno of type integer<br>
 	$ bin/rails generate model User name:string mobileno:integer
-</pre>
+</p></pre>
 <p>This will create a model named User with the above mentioned attributes. Now run the following two commands to create and migrate database:</p>
-<pre style="background: #7B0B59; padding:1em; color: #fff;">
+<pre><p style="background: #7B0B59; padding:1em; color: #fff;">
 $ bin/rake db:create
 $ bin/rake db:migrate
-</pre>
+</p></pre>
 <p>This will create and migrate a postgres database with the name as specified in the database.yml file.</p>
 
 <h3>Creating HTTP Rest API</h3>
 
 <p>Now to create HTTP Rest API, create a folder named 'api' in the app/controllers folder.</p>
 <p>Now create another folder inside the 'api' folder named 'v1'. This denotes that the api is using version 1 of the api. To create another versions create different folders inside the 'api' folder.</p>
-<p>Now to create CRUD(Create Read Update Delete) operations for the User model, create a file named 'users_controller.rb' inside the 'v1' folder. And write the following code inside it:</p>
+<p>Now to create CRUD(Create Read Update Delete) operations for the User model, go to the 'routes.rb' file in the 'config' folder and add this code after the first line:</p>
 
-<pre style="color:#fff; background: #000; padding:1em;">
+<pre><p>
+	namespace :api do
+    	namespace :v1 do
+    	  	resources :products
+    	end
+  	end
+</p></pre>
+
+<p>Now create a file named 'users_controller.rb' inside the 'v1' folder. And write the following code inside it: </p>
+
+<pre><p style="color:#fff; background: #000; padding:1em;">
 module Api
   module V1
     class UsersController < ApplicationController
@@ -71,7 +93,15 @@ module Api
     end
   end
 end
-</pre>
+</p></pre>
+
+<p>Now to host the api on localhost, go to terminal and type the following code:</p>
+
+<pre><p style="color:#fff; background: #7B0B59; padding:1em;">
+	$ rails s
+</p></pre>
+
+<p>This will host the api on the localhost and you can visit localhost:3000 on you browser and you will see a getting started page. Now if you will visit the localhost:3000/api/v1/users</p>
 
 <p>Further content coming soon...</p>
 
