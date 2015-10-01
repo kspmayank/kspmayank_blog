@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Creating an API using Rails"
+date:   2015-10-01
+---
+
+<p class="intro"><span class="dropcap">H</span>ey there! In this post I will explain to you how you can create a simple ruby on rails api without the use of rails api gem. This blog uses references from the railscast tutorial of API Versioning. You can refer a simple user api created using rails at my guthub respository.</p>
+
+<p>This Blog assumes that the user has already installed ruby, rails and postgresql server in his system. For installation of the same, refer here : <a href="https://gorails.com/setup/ubuntu/14.10">Installing Ruby On Rails Environment in Ubuntu</a>.<br>This blog also assumes that the user has prior knowledge about the relational databases.</p>
+
+<h3>Getting Started</h3>
+<p>Once you have installed Ruby On Rails Environment, you can create a new rails app by typing in the following command: ```$ rails new app_name```</p>
+
