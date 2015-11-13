@@ -1,0 +1,16 @@
+---
+layout: post
+title: "My Story"
+date:   2015-11-13
+---
+
+<p class="intro">Its been a long time since my last blog. Couldn't get time as well as a topic to write. So at last I decided to write my own story. My friends often ask me about how's my engineering life going on. So here is a short story describing that.</p>
+
+<p>I was a computer freak since my childhood. I still remember when my father bought me a computer I didn't know anything about it. My mama taught me how to start internet and other stuff and from that time I had in my mind that I had to become a computer enggineer.</p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
