@@ -8,9 +8,9 @@ date:   2015-11-13
 
 <p>I was a computer freak since my childhood. I still remember when my father bought me a computer I didn't know anything about it. My mama taught me how to start internet and other stuff and from that time I had in my mind that I had to become a computer enggineer.</p>
 
-<p></p>
+<p>When I started college it was a totally different world. My nights were full of movies and masti. Then I had a friend, Prabal Malhan. We started thinking about going off the book and learn something. One day I started learning php from codecademy.com. We completed the course in 2 days. And after that we was like now what? We had no clue how to make a website using php. We only knew the syntax. Then we got to know that we have to integrate it with HTML and CSS. Then we started the html and CSS course and completed it in a time span of around one week. And then I started building some static pages using HTML and CSS. Then Prabal came up with the WordPress. And he taught me WordPress within a night. And the next day we were with an idea to create a mobile phone comparison website and started the work. We found the right theme and found affiliate programs from different websites and were ready to start the data entry process. Then we had a big problem. We had a list of around 3.5k items to feed to our database and we had no clue how to do that other than the tidious manual work. But it was practically not possible. And so we dropped this website.</p>
 
-<p></p>
+<p>Now after the vacation we were in second year of our college and we had a lot of opportunities. IEEE student branch was recruiting.</p>
 
 <p></p>
 
