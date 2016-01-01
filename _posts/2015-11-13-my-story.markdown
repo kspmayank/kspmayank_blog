@@ -1,16 +1,33 @@
 ---
 layout: post
-title: "My Story"
+title: "The College and Startup Life"
 date:   2015-11-13
 ---
+<p class="intro">Its been a long time since my last blog. Couldn't get time as well as a topic to write. So at last I decided to write my college life and the startup life. My friends often ask me about how's my engineering life going on. So here is a short story describing that. </p>
 
-<p class="intro">Its been a long time since my last blog. Couldn't get time as well as a topic to write. So at last I decided to write my own story. My friends often ask me about how's my engineering life going on. So here is a short story describing that.</p>
+<p> Today, when students join colleges they are shown big dreams by their seniors to become the cofounders of future startups. Everyone in the college is always talking about the startup stuff and what ideas they have are kept as a top secret classified file. As everyone fears that their idea may get implemented by someone else in a more efficient way. </p>
 
-<p>I was a computer freak since my childhood. I still remember when my father bought me a computer I didn't know anything about it. My mama taught me how to start internet and other stuff and from that time I had in my mind that I had to become a computer enggineer.</p>
+<p> When I started college it was a totally different world. My nights were full of movies and masti. In college there were sigs and I attended the Photoshop and Android SIGs. I started making some posters for time pass.Then my friend, Prabal and I started thinking about going off the book and learn something. One day we started learning php from codecademy.com. We completed the course in 2 days. And after that we was like now what? We had no clue how to make a website using php. We only knew the syntax. Then our first year ended and we had a month's vacation and we got to know that we have to integrate php with HTML and CSS. Then we started the html and CSS course and completed it in a time span of around one week. And then I started building some static pages using HTML and CSS. Then Prabal came up with the WordPress. And he taught me WordPress within a night. And the next day we were with an idea to create a mobile phone comparison website and started the work. We found the right theme and found affiliate programs from different websites and were ready to start the data entry process. Then we had a big problem. We had a list of around 3.5k items to feed to our database and we had no clue how to do that other than the tidious manual work. But it was practically not possible. And so we dropped this website. </p>
 
-<p>When I started college it was a totally different world. My nights were full of movies and masti. In college there were sigs and I attended the Photoshop and Android SIGs. I started making some posters for time pass.Then I had a friend, Prabal Malhan. We started thinking about going off the book and learn something. One day we started learning php from codecademy.com. We completed the course in 2 days. And after that we was like now what? We had no clue how to make a website using php. We only knew the syntax. Then our first year ended and we had a month's vacation and we got to know that we have to integrate php with HTML and CSS. Then we started the html and CSS course and completed it in a time span of around one week. And then I started building some static pages using HTML and CSS. Then Prabal came up with the WordPress. And he taught me WordPress within a night. And the next day we were with an idea to create a mobile phone comparison website and started the work. We found the right theme and found affiliate programs from different websites and were ready to start the data entry process. Then we had a big problem. We had a list of around 3.5k items to feed to our database and we had no clue how to do that other than the tidious manual work. But it was practically not possible. And so we dropped this website.</p>
+<p> Now after the vacation we were in second year of our college and we had a lot of opportunities. IEEE student branch was recruiting. We gone for the interview and applied for website development. And the recruiter who was a senior said if you can learn CSS bootstrap by evening then I will consider you. </p>
 
-<p>Now after the vacation we were in second year of our college and we had a lot of opportunities. IEEE student branch was recruiting. We gone for the interview and applied for website development. And the recruiter who was a senior said if you can learn CSS bootstrap by evening then I will consider you.</p>
+<p> Bootstrap was a simple thing but we couldn't possibly just grasp it in hours. So we considered attending the class a better option. </p>
 
-<p>Further story coming soon...</p>
+<p> Finally I was assigned the designing department considering my previous works as designer for the society. In my next semester, interviews were on for the annual fest of college and I went in for the interview. And was selected in the designing team. And it was a privilege to be there. I learnt all my present designing skill in there. Also along with that I got the opportunity to work on the icon- annual magazine of IEEE msit. This was a wish that I had from first semester. I gave in my days and nights to work on the magazine and result came out to be a good one. Also I was awarded for my work in the annual festival with the best volunteer certificate. Also at this time I had the opportunity to work on a website for my mami's new institute. This was my first website project. </p>
+
+<p> Then nearing to the end of my second year I came up with a new idea that of delivering of grocessary by the local grocessary stores. Developed a WordPress website for the same also. But couldn't get the stores to work with me and eventually the idea dropped seeing a dead end. </p>
+
+<p> Then I was lucky to get a training cum internship at a startup. There I learnt Ruby on rails and worked on two projects also. The internship changed my life. I could now develop things that was only imaginable to me before. And I came out with great skills. I was now a rails developer. </p>
+
+<p> This thing fetched me a few freelance project which gave me a confidence boost to take on any projects. By then Prabal had also become an iOS developer. And so we were again on a journey to become cofounders. This time the idea was to create a platform where anyone can ask a question related to health and the doctors would answer them. This time also we designed the whole project and started the development and also took it to a level. But again we couldn't figure out how to get the doctors ready for this as we had nothing to offer them. And the project eventually never saw terminal again. </p>
+
+<p> Now we were in the third year of our college and we had not lost hope. We were still figuring out new ideas to work upon. One thing was for sure, this time we were not going to take any idea that had any dependency. </p>
+
+<p> Also this time I was promoted to Chief Organiser designation for the annual fest of college - Avensis. And as always great position comes with great responsibility. And obviously I had work to do. A lot of work! </p>
+
+<p> But this didn't come as a barrier to our startup journey. In fact we became more actively involved. And this time we even launched the project. And are eagerly waiting for our first customer. </p>
+
+<p> I just hope that this journey reach new heights always and one day we create a product that could help a billion people in billion ways. </p>
+
+<p>Further story is being built right now...</p>
 
