@@ -3,7 +3,7 @@ layout: post
 title:  "Being An Organiser"
 date:   2016-01-23
 ---
-<div style="text-align: justified;">
+
 Things about being an organiser!
 
 The term organise seem different to different persons. Some take it up as an easy task and some as difficult. It seems easy only if the person is going in it for the first time is unaware of the obstacles ahead.
@@ -24,6 +24,6 @@ We were right, he was right. We had not found a solution.
 Then, we both compromised on our parts and agreed to go as it was. And I told my team to go with full enthusiasm once again. But there were different stands now. How should we tackle this? How can we bring together the team that was now divided?
 
 This question is still before us!! There is work to do that requires 48 hrs in a day to complete. There is a team problem before us. There are personal life to manage. And management is not an easy task!!
-</div>
+
 
 
