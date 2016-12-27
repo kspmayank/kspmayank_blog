@@ -56,7 +56,7 @@ Then next year I was selected as the Chief Organizer for Avensis 2016 and was gi
 
 Sir, Avensis has played an integral part in building what I am today capable of doing. The skill, the managerial activities, etc everything for me starting from the Avensis. And it is on the basis of these skills that I believe I got selected in Microsoft. 
 
-To summarize the whole mail, I would say that Avensis - The Annual Techfest of MSIT, plays a very important role in every student's life who organizes it. It plays a crucial role in building a student's personality and professional skills. It is the only event in this college which is capable of maintaining a good perspective of this college, its management and most importantly, its students. If Avensis would have been conducted this way in my time, then I would have not been what I am today.
+<strong>To summarize the whole mail, I would say that Avensis - The Annual Techfest of MSIT, plays a very important role in every student's life who organizes it. It plays a crucial role in building a student's personality and professional skills. It is the only event in this college which is capable of maintaining a good perspective of this college, its management and most importantly, its students. If Avensis would have been conducted this way in my time, then I would have not been what I am today.</strong>
 
 With the current decisions on Avensis 2017, many students will miss these classes which they get outside the classroom, inside the college. 
 It is my humble request to you to please reconsider your decisions and postpone the Avensis atleast by one month so that the students could learn these things from the experiences of their seniors and other faculties and the passing of knowledge continues.
