@@ -28,7 +28,7 @@ I recently saw the notice regarding the Avensis 2017 and found out that decided 
 
 I feel that you understand the importance of a college Festival from the view of a member of the college management committee. I am writing this mail to give you an insight of the students perspective and importance of the college festival.
 
-My experience in Avensis 2015
+<strong>My experience in Avensis 2015</strong>
 
 I joined Avensis Team in 2015 in the designing department. I had no professional skills at that time. In the team I was guided by my COs/Mentors and I learnt how to use Adobe Photoshop Design Tool. I received the guidance that I could not have received in the classrooms and skills that provided me ways to find work. Soon after that I received multiple works inside college such as designing the annual magazine of IEEE MSIT(Link to magazine). Apart from this, Avensis 2015 taught me:
 
@@ -40,7 +40,7 @@ I joined Avensis Team in 2015 in the designing department. I had no professional
 
 After working in this team, I got motivated and found various freelance works and soon landed an internship in a startup where I learned website development and worked on various projects.
 
-My experience in Avensis 2016
+<strong>My experience in Avensis 2016</strong>
 
 Then next year I was selected as the Chief Organizer for Avensis 2016 and was given the responsibility of Technical Department. In this role I learned the following activities :
 
@@ -74,9 +74,3 @@ CSE Evening, 4th Year
 
 +91-9716448141
 www.mayankkashyap.com
- 
- 
- 	
-Mayank Kashyap
-about.me/mayankkashyap
- 
